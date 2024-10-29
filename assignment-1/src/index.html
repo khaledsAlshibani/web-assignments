@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+	<title>Web Assignment</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<!-- Header section Start -->
+	<header class="header">
+		<div class="container">
+			<div class="header__banner">
+				<h1 class="header__banner-title">Khaled Alshibani's Assignment</h1>
+			</div>
+		</div>
+	</header>
+
+	<!-- Footer section Start -->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__upper">
+				<div class="footer__row footer__row--borderBottom">
+					<div class="footer__row-section">
+						<p>Subscribe to my newsletter for the latest offers and updates.</p>
+					</div>
+
+					<form class="footer__row-section footer__row-form" action="#">
+						<div class="footer__row-form-item">
+							<label class="sr-only" for="newsletter-email">Email</label>
+							<input class="input" type="email" id="newsletter-email" placeholder="Enter your email" required>
+							<button type="submit" class="button button--newsletter">Subscribe</button>
+						</div>
+					</form>
+				</div>
+
+				<div class="footer__row footer__row--marginBottom">
+					<div class="footer__row-section">
+						<p>Your trusted partner in quality development and design solutions.</p>
+						<div class="footer__socialmedia">
+							<a class="footer__socialmedia-icon" href="https://technway.biz" target="_blank"
+								aria-label="Visit technway">
+								<img src="assets/icons/technway.png" alt="technway">
+							</a>
+							<a class="footer__socialmedia-icon" href="https://github.com/khaledsAlshibani"
+								target="_blank" aria-label="Visit my github">
+								<img src="assets/icons/github.png" alt="github">
+							</a>
+							<a class="footer__socialmedia-icon" href="https://codepen.io/khaledsAlshibani"
+								target="_blank" aria-label="Visit my codepen">
+								<img src="assets/icons/codepen.png" alt="codepen">
+							</a>
+							<a class="footer__socialmedia-icon" href="https://twitter.com/khaleds_saif" target="_blank"
+								aria-label="Visit my X formerly Twitter">
+								<img src="assets/icons/twitter.png" alt="X (Twitter)">
+							</a>
+							<a class="footer__socialmedia-icon" href="https://www.linkedin.com/in/khaledsalshibani"
+								target="_blank" aria-label="Visit my LinkedIn">
+								<img src="assets/icons/linkedin.png" alt="LinkedIn">
+							</a>
+							<a class="footer__socialmedia-icon" href="https://www.facebook.com/khaledsAlshibani/"
+								target="_blank" aria-label="Visit my Facebook">
+								<img src="assets/icons/facebook.png" alt="Facebook">
+							</a>
+						</div>
+					</div>
+
+					<form class="footer__row-section footer__row-form" action="#">
+						<div class="footer__row-form-item">
+							<div class="select" data-select>
+								<button id="language-toggler" class="select__toggler button" aria-haspopup="listbox" aria-expanded="false" aria-controls="language-select" onclick="toggleSelect()" data-select-toggler>
+									English
+									<svg class="select__toggler-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+										<path fill="currentColor" d="m5.84 9.59l5.66 5.66l5.66-5.66l-.71-.7l-4.95 4.95l-4.95-4.95z"></path>
+									</svg>									
+								</button>
+								<ul class="select__dropdown" id="language-select" role="listbox" aria-labelledby="language-toggler" data-select-dropdown>
+									<li class="select__option" role="option" tabindex="0" aria-selected="true">
+										<a href="#" role="button">English</a>
+									</li>
+									<li class="select__option" role="option" tabindex="0" aria-selected="false">
+										<a href="#" role="button">Español</a>
+									</li>
+									<li class="select__option" role="option" tabindex="0" aria-selected="false">
+										<a href="#" role="button">Français</a>
+									</li>
+									<li class="select__option" role="option" tabindex="0" aria-selected="false">
+										<a href="#" role="button">Deutsch</a>
+									</li>
+									<li class="select__option" role="option" tabindex="0" aria-selected="false">
+										<a href="#" role="button">العربية</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</form>
+				</div>
+
+				<div class="footer__row footer__row--withGap">
+					<p class="footer__row-item">
+						We provide high-quality solutions for all your development and design needs.
+					</p>
+					<ul class="footer__row-item">
+						<li><a href="https://khaled.technway.biz/">Home</a></li>
+						<li><a href="https://khaled.technway.biz/assets/Khaled-Alshibani-Resume.pdf">CV</a></li>
+						<li><a href="https://khaled.technway.biz/#skills">Skills</a></li>
+						<li><a href="https://github.com/khaledsAlshibani?tab=repositories">Portfolio</a></li>
+					</ul>
+					<ul class="footer__row-item">
+						<li><a href="https://technway.biz">Technway</a></li>
+						<li><a href="https://technway.biz/#about">About Technway</a></li>
+						<li><a href="https://technway.biz/efficient-web-solutions/">Web Solutions</a></li>
+						<li><a href="https://technway.biz/transformative-design-solutions/">Design Solutions</a></li>
+						<li><a href="https://technway.biz/testing-and-consulting-reports-solutions/">Testing And Consulting</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer__lower">
+			<div class="container">
+				<p class="footer__lower-text">Khaled Alshibani</p>
+				<p class="footer__lower-text">&copy; 2024 All rights reserved.</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>
